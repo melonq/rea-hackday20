@@ -1,0 +1,57 @@
+.article-border {
+    border: solid 5px red !important;
+    opacity: 0.3 !important;
+}
+
+.rail-tabs {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+#rail-articles {
+    background-image: url("ipad.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 430px;
+}
+
+#braille {
+    padding: 43px;
+    max-height: 380px;
+}
+
+.char{
+  width:10px;
+  height:15px;
+  float:left;
+  margin:2px;
+  border:1px solid black;
+  box-sizing: initial;
+}
+
+.case{
+  float:left;
+  height:5px;
+  width:10px;
+}
+
+.full{
+  height:5px;
+  width:5px;
+  float:left;
+  border-radius:150px;
+  background:url(./img/full.jpg) no-repeat center;
+  background-size:120%;
+}
+
+.blank{
+  background:url(./img/white.jpg) no-repeat center;
+  width:5px;
+  height:5px;
+  float:left;
+}
+
+#display{
+  width:100%;
+  height:auto;
+}
